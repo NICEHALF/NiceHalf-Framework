@@ -86,7 +86,7 @@ if (!function_exists('url')) {
 if (!function_exists('asset')) {
     function asset($path = null)
     {
-        return NicehalfCore\System\Extra\Url::path('resources' . NicehalfCore\System\Extra\File::ds() . 'assets' . NicehalfCore\System\Extra\File::ds() . $path);
+        return NicehalfCore\System\Extra\Url::path('resources/assets/' . $path);
     }
 }
 
